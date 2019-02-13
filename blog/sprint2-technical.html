@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title> TECHNICAL </title>
+    <meta charset="UTF-8">
+    <link href="styles/main.css" rel="stylesheet" type="text/css">
+  </head>
+  
+  <body>
+    <h1>DISPLAY INLINE VS INLINE BLOCK</h1>
+    
+    <p>
+        So first up, "display: block". Block means that there is block-like space created that contains the content (such as text) within it. This allows for editing with spacing-based CSS like margins and padding. Initially, any content that is set with “display: block” will take up the full width of the page beside it. Even if the content is not as wide as the full page, block content still will not tolerate any other html elements next to it (unless you apply a float declaration to another element, but I won’t get into that). This can be seen when applying a background colour (see example below). 
+        
+    </p>
+    <p>
+        Next, "display: inline". This reduces the elements width only to the space it needs, and allows other HTML content to be “in line” with it, i.e. on the same line. This allows you optimize the use of overall browser space, however, it does have its limitations. With inline, there’s no block container around the content, it’s just the content itself in relation to the line it’s on. Therefore you cannot work with spatial CSS styling such as margin-top, margin-bottom, width, height and float, but you can alter line-based spatial features, such as margin-left and margin-right.
+    </p>
+    <p>
+        Finally, the elegant hybrid, "display: inline-block". This sits elements within a block container that can be affected by spatial CSS AND ALSO allows this block of content to sit inline with other inline/ inline-block elements.
+        THAT’S HOT. 
+    </p>        
+    
+    <!-- this is a comment. -->
+  
+  </body>
+  </html>
