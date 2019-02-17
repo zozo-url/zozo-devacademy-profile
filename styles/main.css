@@ -78,7 +78,15 @@ img {
 
 .text{
     margin: auto;
-    width: 50%;
+    width: 70%;
     border: 2px solid black;
     padding: 5px;
+}
+.expics{
+    margin:auto;
+    width:90%
+}
+
+#code{
+    margin: 0px 0px 0px 130px;
 }
