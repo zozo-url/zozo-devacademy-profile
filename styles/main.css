@@ -1,5 +1,5 @@
 body {
-    background-color: pink;
+    background-color: lightgreen;
     font-family: Helvetica, sans-serif;
 }
 
@@ -9,7 +9,7 @@ body {
     width: 90%;
     padding:2px;
     text-align: center;
-    background-color: pink;
+    background-color:lightgreen;
     border: 0px solid white;
     font-family: Helvetica, sans-serif;
 }
@@ -62,11 +62,18 @@ img {
     height: 20px;
     margin: auto;
 }
-
+.me{
+    display:inline-block;
+    max-width: 30%;
+    margin: auto;
+}
 .x{
     display: inline-block;
     padding: 20px;
     width: 100%;
+}
+.x img{
+    width:20%;
 }
 
 .text{
