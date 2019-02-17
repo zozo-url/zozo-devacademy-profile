@@ -1,5 +1,5 @@
 body {
-    background-color: lightgreen;
+    background-color:pink;
     font-family: Helvetica, sans-serif;
 }
 
@@ -9,7 +9,7 @@ body {
     width: 90%;
     padding:2px;
     text-align: center;
-    background-color:lightgreen;
+    background-color:pink;
     border: 0px solid white;
     font-family: Helvetica, sans-serif;
 }
